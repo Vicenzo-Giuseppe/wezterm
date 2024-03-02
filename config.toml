@@ -1,0 +1,38 @@
+default_cursor_style = 'BlinkingUnderline'
+cursor_thickness = 2
+show_tab_index_in_tab_bar = true
+cursor_blink_rate = 400
+hide_mouse_cursor_when_typing = true
+color_scheme = 'Catppuccin'
+use_fancy_tab_bar = false
+tab_bar_at_bottom = true
+switch_to_last_active_tab_when_closing_tab = true
+window_close_confirmation = 'NeverPrompt'
+window_decorations = 'RESIZE'
+enable_scroll_bar = true
+audible_bell = 'Disabled'
+disable_default_key_bindings = true
+default_domain = 'local'
+hyperlink_rules = {}
+harfbuzz_features = [
+    "calt=1",
+    "clig=1",
+    "liga=1"
+]
+window_background_opacity = 0.65
+text_background_opacity = 0.75
+
+[leader]
+key = '['
+mods = 'CTRL'
+timeout_milliseconds = 750
+[visual_bell]
+fade_in_function = 'EaseIn'
+fade_in_duration_ms = 250
+fade_out_function = 'EaseOut'
+fade_out_duration_ms = 250
+[window_padding]
+left = 0
+right = 0
+top = 0
+bottom = 0
