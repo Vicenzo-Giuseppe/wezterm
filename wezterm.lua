@@ -1,4 +1,7 @@
 require('on')
+package.path = wezterm.config_dir .. "/?.lua;" ..
+               wezterm.config_dir .. "/?/init.lua;" ..
+               package.path
 local config = {
     font = require('wezterm').font('FiraCode Nerd Font'),
     default_prog = require('utils').system() and { 'pwsh', '-nol' } or nil,
